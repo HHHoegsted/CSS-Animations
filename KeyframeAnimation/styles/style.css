@@ -1,3 +1,33 @@
-﻿#td1{
+﻿table{
+    margin: 100px;
+}
 
+td{
+    padding: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#td1{
+    background-color: darkgreen;
+}
+#td2 {
+    background-color: darkred;
+}
+#td3 {
+    background-color: darkblue;
+}
+#td4 {
+    background-color: darkmagenta;
+}
+#td5 {
+    background-color: darkorange;
+}
+#td6 {
+    background-color: steelblue;
+}
+#td7 {
+    background-color: deeppink;
 }
