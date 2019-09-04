@@ -8,26 +8,205 @@ td{
     height: 40px;
     border-radius: 50%;
     position: relative;
+    /*animation: animation 10s infinite;*/
 }
 
-#td1{
+#td1 {
     background-color: darkgreen;
+    animation: animation 7s infinite;
 }
 #td2 {
     background-color: darkred;
+    animation: animation2 7s infinite;
+    animation-delay: 1s;
 }
 #td3 {
     background-color: darkblue;
+    animation: animation3 7s infinite;
+    animation-delay: 2s;
 }
 #td4 {
     background-color: darkmagenta;
+    animation: animation4 7s infinite;
+    animation-delay: 3s;
 }
 #td5 {
     background-color: darkorange;
+    animation: animation5 7s infinite;
+    animation-delay: 4s;
 }
 #td6 {
     background-color: steelblue;
+    animation: animation6 7s infinite;
+    animation-delay: 5s;
 }
 #td7 {
     background-color: deeppink;
+    animation: animation7 7s infinite;
+    animation-delay: 6s;
+}
+
+@keyframes animation {
+    0%{
+        top: 0px;
+    }
+    25%{
+        top:250px;
+        background-color:lightgreen;
+    }
+    50%{
+        top:500px;
+        background-color:white;
+    }
+    75%{
+        top:250px;
+        background-color: lightgreen;
+    }
+    100%{
+        top: 0px;
+    }
+}
+@keyframes animation2 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: lightcoral;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: lightcoral;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+@keyframes animation3 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: lightblue;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: lightblue;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+@keyframes animation4 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: magenta;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: magenta;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+@keyframes animation5 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: yellow;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: yellow;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+@keyframes animation6 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: lightsteelblue;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: lightsteelblue;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+@keyframes animation7 {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 250px;
+        background-color: lightpink;
+    }
+
+    50% {
+        top: 500px;
+        background-color: white;
+    }
+
+    75% {
+        top: 250px;
+        background-color: lightpink;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
